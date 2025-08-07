@@ -1,0 +1,64 @@
+AtliQ Sales Dashboard Project
+│
+├── 1. Company & Team Overview
+│   ├── Clients
+│   │   ├─ Surge Stores
+│   │   ├─ Nomad Stores
+│   │   ├─ Excel Stores
+│   │   └─ Electricalsara Stores
+│   ├── Head Office: Delhi, India
+│   ├── IT Team (Falcon)
+│   │   └─ Manages Sales Software & MySQL DB
+│   └── Data Analyst Team (Data Masters)
+│       └─ Builds dashboards using MySQL data
+│
+├── 2. Problem Statement
+│   ├── Market growing dynamically
+│   ├── Verbal updates from managers
+│   └── Lack of accurate sales insights
+│
+├── 3. Objectives
+│   ├── Build simple & clear dashboards
+│   ├── Enable data-driven decisions
+│   └── Reduce manual reporting effort
+│
+├── 4. AIMS Grid
+│   ├── Purpose
+│   │   └─ Unlock insights & automate reporting
+│   ├── Stakeholders
+│   │   ├─ Sales Director
+│   │   ├─ Marketing Team
+│   │   ├─ Customer Service Team
+│   │   ├─ Data & Analytics Team
+│   │   └─ IT Team
+│   ├── End Result
+│   │   └─ Automated dashboard with latest insights
+│   └── Success Criteria
+│       ├─ Dashboards uncover key insights
+│       ├─ 10% cost savings
+│       └─ 20% time saved for sales analysts
+│
+├── 5. Project Plan
+│   ├── Data Source
+│   │   └─ Sales data stored in MySQL (Falcon team)
+│   ├── Data Access
+│   │   └─ Data Masters use MySQL for reports
+│   ├── High Data Volume Handling (Org-level)
+│   │   ├─ Extract from MySQL (OLTP)
+│   │   ├─ Transform via ETL (Apache NiFi, Python)
+│   │   ├─ Load into Data Warehouse
+│   │   └─ Maintained by Data Engineers
+│   ├── Dashboard Creation
+│   │   └─ Pull cleaned data to Power BI
+│   └── Missing Data Handling
+│       └─ Analysts to identify and collect missing data
+│
+├── 6. Final Deliverables
+│   ├── Power BI Sales Dashboard
+│   └── Monthly Sales Alerts
+│
+└── 7. Tools & Tech Stack
+    ├── MySQL (Source DB)
+    ├── Apache NiFi (ETL)
+    ├── Python (Data Cleaning)
+    └── Power BI (Visualization)

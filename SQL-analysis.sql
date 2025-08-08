@@ -74,3 +74,5 @@ SELECT CONCAT('₹ ', FORMAT(SUM(
 FROM sales.transactions t
 INNER JOIN sales.date d ON t.order_date = d.date
 WHERE d.year = 2020 AND t.market_code = 'Mark001';
+
+SELECT count(*) FROM sales.transactions WHERE sales_amount <= 0;
